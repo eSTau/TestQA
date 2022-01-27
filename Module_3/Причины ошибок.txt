@@ -1,0 +1,27 @@
+1. _970001 filling in test data base
+Ўаг Given I open hyperlink "e1cib/list/Document.SalesOrder" 1 параметр, 13 вложений
+Cannot perform an interactive operation on an object that is not available.
+ѕроблемы из-за не закрытого окна диалога.
+                                                                           
+2. _015450 check message output for SO when trying to create a purchase order/SC
+Ўаг Then the number of "BasisesTree" table lines is "равно" 0 
+ќжидалось что таблица "BasisesTree" будет пустой а в ней оказалось 2 строки.
+
+3. _0154149 create Cash statement
+Ўаг And I go to line in "List" table
+Ќе удалось найти таблицу с именем "List". —ценарий должен был обратитьс€ к форме списка документа, но что-то
+пошло не так и активной формой на момент выполнени€ шага оказалась форма документа.
+
+4. 404
+Test result with uid "31964347af6c0764" not found
+
+5. 404
+Test result with uid "f1a04197e711e332" not found
+
+6. 404
+Test result with uid "1983df098cf6db8d" not found
+
+7. 404
+Test result with uid "483cc0bdb64b094f" not found
+
+
