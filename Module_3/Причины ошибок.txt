@@ -1,16 +1,16 @@
 1. _970001 filling in test data base
-Шаг Given I open hyperlink "e1cib/list/Document.SalesOrder" 1 параметр, 13 вложений
+РЁР°Рі Given I open hyperlink "e1cib/list/Document.SalesOrder" 1 РїР°СЂР°РјРµС‚СЂ, 13 РІР»РѕР¶РµРЅРёР№
 Cannot perform an interactive operation on an object that is not available.
-Проблемы из-за не закрытого окна диалога.
+РџСЂРѕР±Р»РµРјС‹ РёР·-Р·Р° РЅРµ Р·Р°РєСЂС‹С‚РѕРіРѕ РѕРєРЅР° РґРёР°Р»РѕРіР°.
                                                                            
 2. _015450 check message output for SO when trying to create a purchase order/SC
-Шаг Then the number of "BasisesTree" table lines is "равно" 0 
-Ожидалось что таблица "BasisesTree" будет пустой а в ней оказалось 2 строки.
+РЁР°Рі Then the number of "BasisesTree" table lines is "СЂР°РІРЅРѕ" 0 
+РћР¶РёРґР°Р»РѕСЃСЊ С‡С‚Рѕ С‚Р°Р±Р»РёС†Р° "BasisesTree" Р±СѓРґРµС‚ РїСѓСЃС‚РѕР№ Р° РІ РЅРµР№ РѕРєР°Р·Р°Р»РѕСЃСЊ 2 СЃС‚СЂРѕРєРё.
 
 3. _0154149 create Cash statement
-Шаг And I go to line in "List" table
-Не удалось найти таблицу с именем "List". Сценарий должен был обратиться к форме списка документа, но что-то
-пошло не так и активной формой на момент выполнения шага оказалась форма документа.
+РЁР°Рі And I go to line in "List" table
+РќРµ СѓРґР°Р»РѕСЃСЊ РЅР°Р№С‚Рё С‚Р°Р±Р»РёС†Сѓ СЃ РёРјРµРЅРµРј "List". РЎС†РµРЅР°СЂРёР№ РґРѕР»Р¶РµРЅ Р±С‹Р» РѕР±СЂР°С‚РёС‚СЊСЃСЏ Рє С„РѕСЂРјРµ СЃРїРёСЃРєР° РґРѕРєСѓРјРµРЅС‚Р°, РЅРѕ С‡С‚Рѕ-С‚Рѕ
+РїРѕС€Р»Рѕ РЅРµ С‚Р°Рє Рё Р°РєС‚РёРІРЅРѕР№ С„РѕСЂРјРѕР№ РЅР° РјРѕРјРµРЅС‚ РІС‹РїРѕР»РЅРµРЅРёСЏ С€Р°РіР° РѕРєР°Р·Р°Р»Р°СЃСЊ С„РѕСЂРјР° РґРѕРєСѓРјРµРЅС‚Р°.
 
 4. 404
 Test result with uid "31964347af6c0764" not found
